@@ -47,7 +47,7 @@ hr {
 }
 
 .btn {
-    display: inline-block;
+    display: block;
     padding: 1rem 3rem;
     border-radius: 1rem;
     background: #F05F44;
@@ -59,8 +59,4 @@ hr {
 
 .btn:hover {
     padding: 1.2rem 3.2rem;
-}
-
-.mc_embed_signup_scroll {
-    text-align: center;
 }
