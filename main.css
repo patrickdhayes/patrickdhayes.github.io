@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
 }
 
 body {
@@ -9,6 +10,9 @@ body {
 }
 body {
     background-color: #000;
+}
+.flex {
+    display: flex;
 }
 .bg-container {
     background: url(img/header.jpg) no-repeat;
@@ -47,7 +51,8 @@ hr {
 }
 
 .btn {
-    display: block;
+    display: inline-block;
+    justify-content: center;
     padding: 1rem 3rem;
     border-radius: 1rem;
     background: #F05F44;
