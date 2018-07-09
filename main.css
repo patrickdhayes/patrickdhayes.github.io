@@ -52,7 +52,7 @@ hr {
 }
 
 .btn {
-    display: inline-block!important;
+    display: inline-block;
     justify-content: center;
     padding: 1rem 3rem;
     border-radius: 1rem;
@@ -65,9 +65,4 @@ hr {
 
 .btn:hover {
     padding: 1.2rem 3.2rem;
-}
-
-.clear {
-    display: block!important;
-    text-align: center;
 }
